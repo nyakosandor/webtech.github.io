@@ -1,0 +1,42 @@
+<div class="car-editor">
+    <div class="card add-card" style="width: 25rem;">
+      <h2 id="form-title" class="card-title">Add New Car</h2>
+  
+      <form id="car-form" style="width: 100%;">
+        
+        <div class="form-group">
+          <label for="brand">Brand</label>
+          <input type="text" id="brand" class="input-field" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="model">Model</label>
+          <input type="text" id="model" class="input-field" required>
+        </div>
+  
+        <div class="form-group checkbox-group">
+          <label for="electric">Electric</label>
+          <input type="checkbox" id="electric" class="car-electric-checkbox">
+        </div>
+  
+        <div class="form-group">
+          <label for="fuelUse">Fuel Usage</label>
+          <input type="text" id="fuelUse" class="input-field" placeholder="L/100km (0 if electric)">
+        </div>
+  
+        <div class="form-group">
+          <label for="dayOfCommission">Commission Date</label>
+          <input type="date" id="dayOfCommission" class="input-field">
+        </div>
+  
+        <div class="form-group">
+          <label for="owner">Owner</label>
+          <input type="text" id="owner" class="input-field" placeholder="First Last">
+        </div>
+  
+        <button id="btn-save" class="btn-primary">Add Car</button>
+        <p id="form-message" style="color: red; margin-top: 1rem;"></p>
+      </form>
+    </div>
+  </div>
+  
